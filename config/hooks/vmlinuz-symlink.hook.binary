@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+mv binary/casper/vmlinuz-5.4.0-56-generic binary/casper/vmlinuz
+mv binary/casper/initrd.img-5.4.0-56-generic binary/casper/initrd.lz
